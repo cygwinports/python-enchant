@@ -1,0 +1,95 @@
+python-enchant
+------------------------------------------
+PyEnchant is a set of language bindings and some wrapper classes to make 
+the excellent Enchant spellchecker available as a Python module. It 
+includes all the functionality of Enchant with the flexibility of Python 
+and a nice Pythonic object-oriented interface. It also aims to provide 
+some higher-level functionality than is available in the C API.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  enchant-1.4.2-1
+  python-2.5.2-3
+  python-gobject2-2.14.2-1  (optional)
+  python-gtk2-2.12.1-1  (optional)
+  python-wx2.8-2.8.8.0-1  (optional)
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cygport-0.4.0-1
+  gcc-core-3.4.4-3
+  python-2.5.2-3
+  python-pyrex-0.9.8.5-1
+
+Canonical website:
+  http://pyenchant.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/pyenchant/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-enchant-1.4.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-enchant-1.4.2-X.cygport all
+
+This will create:
+  /usr/src/python-enchant-1.4.2-X-src.tar.bz2
+  /usr/src/python-enchant-1.4.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/enchant/__init__.py
+  /usr/lib/python2.5/site-packages/enchant/__init__.pyc
+  /usr/lib/python2.5/site-packages/enchant/__init__.pyo
+  /usr/lib/python2.5/site-packages/enchant/_enchant.dll
+  /usr/lib/python2.5/site-packages/enchant/checker/CmdLineChecker.py
+  /usr/lib/python2.5/site-packages/enchant/checker/CmdLineChecker.pyc
+  /usr/lib/python2.5/site-packages/enchant/checker/CmdLineChecker.pyo
+  /usr/lib/python2.5/site-packages/enchant/checker/GtkSpellCheckerDialog.py
+  /usr/lib/python2.5/site-packages/enchant/checker/GtkSpellCheckerDialog.pyc
+  /usr/lib/python2.5/site-packages/enchant/checker/GtkSpellCheckerDialog.pyo
+  /usr/lib/python2.5/site-packages/enchant/checker/__init__.py
+  /usr/lib/python2.5/site-packages/enchant/checker/__init__.pyc
+  /usr/lib/python2.5/site-packages/enchant/checker/__init__.pyo
+  /usr/lib/python2.5/site-packages/enchant/checker/wxSpellCheckerDialog.py
+  /usr/lib/python2.5/site-packages/enchant/checker/wxSpellCheckerDialog.pyc
+  /usr/lib/python2.5/site-packages/enchant/checker/wxSpellCheckerDialog.pyo
+  /usr/lib/python2.5/site-packages/enchant/pypwl.py
+  /usr/lib/python2.5/site-packages/enchant/pypwl.pyc
+  /usr/lib/python2.5/site-packages/enchant/pypwl.pyo
+  /usr/lib/python2.5/site-packages/enchant/tokenize/__init__.py
+  /usr/lib/python2.5/site-packages/enchant/tokenize/__init__.pyc
+  /usr/lib/python2.5/site-packages/enchant/tokenize/__init__.pyo
+  /usr/lib/python2.5/site-packages/enchant/tokenize/en.py
+  /usr/lib/python2.5/site-packages/enchant/tokenize/en.pyc
+  /usr/lib/python2.5/site-packages/enchant/tokenize/en.pyo
+  /usr/lib/python2.5/site-packages/enchant/utils.py
+  /usr/lib/python2.5/site-packages/enchant/utils.pyc
+  /usr/lib/python2.5/site-packages/enchant/utils.pyo
+  /usr/lib/python2.5/site-packages/pyenchant-1.4.2-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/pyenchant-1.4.2-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/pyenchant-1.4.2-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/pyenchant-1.4.2-py2.5.egg-info/eager_resources.txt
+  /usr/lib/python2.5/site-packages/pyenchant-1.4.2-py2.5.egg-info/top_level.txt
+  /usr/share/doc/python-enchant-1.4.2/ChangeLog
+  /usr/share/doc/python-enchant-1.4.2/LICENSE.txt
+  /usr/share/doc/python-enchant-1.4.2/README.txt
+  /usr/share/doc/python-enchant-1.4.2/TODO.txt
+
+------------------
+
+Port Notes:
+
+----- version 1.4.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

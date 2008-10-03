@@ -1,0 +1,6 @@
+ORIG_PN="pyenchant"
+inherit distutils
+
+DESCRIPTION="Python Enchant spellchecker bindings"
+HOMEPAGE="http://pyenchant.sourceforge.net/"
+SRC_URI="mirror://sourceforge/pyenchant/${ORIG_PN}-${PV}.tar.gz"
