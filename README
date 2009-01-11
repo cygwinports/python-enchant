@@ -9,17 +9,17 @@ some higher-level functionality than is available in the C API.
 Runtime requirements:
   cygwin-1.5.25-15
   libenchant1-1.4.2-2
-  python-2.5.2-4
-  python-gobject2-2.14.2-1  (optional)
-  python-gtk2-2.12.1-1  (optional)
+  python-2.5.4-1
+  python-gobject2-2.15.4-1  (optional)
+  python-gtk2-2.13.0-1  (optional)
   python-wx2.8-2.8.9.1-1  (optional)
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20080624-2
-  cygport-0.4.2-1
+  cygport-0.4.3-1
   gcc-core-3.4.4-3
-  python-2.5.2-4
+  python-2.5.4-1
   python-pyrex-0.9.8.5-1
 
 Canonical website:
@@ -31,15 +31,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-enchant-1.5.0-X-src.tar.bz2
+  unpack python-enchant-1.5.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-enchant-1.5.0-X.cygport all
+  cygport ./python-enchant-1.5.1-X.cygport all
 
 This will create:
-  /usr/src/python-enchant-1.5.0-X-src.tar.bz2
-  /usr/src/python-enchant-1.5.0-X.tar.bz2
+  /usr/src/python-enchant-1.5.1-X-src.tar.bz2
+  /usr/src/python-enchant-1.5.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -75,16 +75,19 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/enchant/utils.py
   /usr/lib/python2.5/site-packages/enchant/utils.pyc
   /usr/lib/python2.5/site-packages/enchant/utils.pyo
-  /usr/lib/python2.5/site-packages/pyenchant-1.5.0-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/pyenchant-1.5.0-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/pyenchant-1.5.0-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/pyenchant-1.5.0-py2.5.egg-info/eager_resources.txt
-  /usr/lib/python2.5/site-packages/pyenchant-1.5.0-py2.5.egg-info/top_level.txt
-  /usr/share/doc/python-enchant-1.5.0/README.txt
+  /usr/lib/python2.5/site-packages/pyenchant-1.5.1-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/pyenchant-1.5.1-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/pyenchant-1.5.1-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/pyenchant-1.5.1-py2.5.egg-info/eager_resources.txt
+  /usr/lib/python2.5/site-packages/pyenchant-1.5.1-py2.5.egg-info/top_level.txt
+  /usr/share/doc/python-enchant-1.5.1/README.txt
 
 ------------------
 
 Port Notes:
+
+----- version 1.5.1-1 -----
+Version bump.
 
 ----- version 1.5.0-1 -----
 Version bump.
