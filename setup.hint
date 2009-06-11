@@ -1,5 +1,5 @@
 category: Python
-requires: cygwin python libenchant-devel
+requires: python libenchant-devel
 sdesc: "Python Enchant spellchecker bindings"
 ldesc: "PyEnchant is a set of language bindings and some wrapper classes 
 to make the excellent Enchant spellchecker available as a Python module. 
