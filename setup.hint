@@ -1,8 +1,0 @@
-category: Python
-requires: python libenchant-devel
-sdesc: "Python Enchant spellchecker bindings"
-ldesc: "PyEnchant is a set of language bindings and some wrapper classes 
-to make the excellent Enchant spellchecker available as a Python module. 
-It includes all the functionality of Enchant with the flexibility of 
-Python and a nice Pythonic object-oriented interface. It also aims to 
-provide some higher-level functionality than is available in the C API."

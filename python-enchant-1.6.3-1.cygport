@@ -1,5 +1,0 @@
-ORIG_PN="pyenchant"
-inherit distutils
-
-DESCRIPTION="Python Enchant spellchecker bindings"
-HOMEPAGE="http://pyenchant.sourceforge.net/"
