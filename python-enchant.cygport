@@ -1,8 +1,8 @@
 ORIG_PN="pyenchant"
-inherit distutils
+inherit python-wheel
 
 NAME="python-enchant"
-VERSION=1.6.5
+VERSION=1.6.8
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python Enchant spellchecker bindings"
@@ -13,4 +13,10 @@ nice Pythonic object-oriented interface. It also aims to provide some higher-
 level functionality than is available in the C API."
 HOMEPAGE="http://packages.python.org/pyenchant/"
 
-REQUIRES="libenchant-devel"
+PATCH_URI="1.6.8-cygwin-ctypes.patch"
+
+ARCH=noarch
+
+python2_enchant_REQUIRES="libenchant1" # ctypes
+python3_enchant_REQUIRES="libenchant1" # ctypes
+REQUIRES_EXCLUDE_FROM="*/enchant/checker/*"
