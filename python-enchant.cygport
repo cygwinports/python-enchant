@@ -2,7 +2,7 @@ ORIG_PN="pyenchant"
 inherit python-wheel
 
 NAME="python-enchant"
-VERSION=1.6.8
+VERSION=1.6.11
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python Enchant spellchecker bindings"
