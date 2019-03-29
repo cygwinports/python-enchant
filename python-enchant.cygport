@@ -3,7 +3,7 @@ inherit python-wheel
 
 NAME="python-enchant"
 VERSION=1.6.11
-RELEASE=1
+RELEASE=2
 CATEGORY="Python"
 SUMMARY="Python Enchant spellchecker bindings"
 DESCRIPTION="PyEnchant is a set of language bindings and some wrapper classes
@@ -17,6 +17,7 @@ PATCH_URI="1.6.8-cygwin-ctypes.patch"
 
 ARCH=noarch
 
-python2_enchant_REQUIRES="libenchant1" # ctypes
-python3_enchant_REQUIRES="libenchant1" # ctypes
+python27_enchant_REQUIRES="libenchant1" # ctypes
+python36_enchant_REQUIRES="libenchant1" # ctypes
+python37_enchant_REQUIRES="libenchant1" # ctypes
 REQUIRES_EXCLUDE_FROM="*/enchant/checker/*"
